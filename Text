@@ -1,0 +1,9 @@
+<SafeAreaView style = {styles.droidSafeArea}>
+                     <EventCalender
+                          eventTapped = {eventClicked}
+                          events = {events}
+                          width = {wdith}
+                          size = {60}
+                          scrolltoFirst
+                    /> 
+                </SafeAreaView>
