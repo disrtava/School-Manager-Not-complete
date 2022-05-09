@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet , View , Text , Image } from "react-native";
 import {createMaterialBottomTabNavigator} from "@react-navigation/material-bottom-tabs"
 
+
 const Tab = createMaterialBottomTabNavigator()
 
 export default class BottomTabNavigator extends React.Component {
